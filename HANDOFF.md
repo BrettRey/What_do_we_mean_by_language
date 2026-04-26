@@ -26,6 +26,8 @@ After all six are populated, the per-cluster sections (§§3–8) can be drafted
 
 ## Things not captured in the planning docs
 
+**Watch for paper-shape drift across model handoffs.** The predecessor was abandoned partly because it drifted to a place Brett didn't want. His hypothesis: Codex did some of the drafting and that may have caused the drift (not confirmed, but worth tracking). If you draft, draft as Claude. If drafting is handed off to another model mid-stream, audit the result against this HANDOFF and `CLAUDE.md`'s working thesis before continuing — does the paper still feel like the paper described here? See `Project-Management/collaboration-log/2026-04-26-session.md` for the full reflection.
+
 **Brett's HPC book is load-bearing.** Even if not cited in the final paper, the book's machinery informs §2's HPC discipline and §9's slippage section. Specifically: Chapter 4 (categories without essences), Chapter 7 (projectibility / three checks), Chapter 8 (failure modes / two diagnostics / grain), Chapter 16 (social stabilization / "no conditioning gain, no maintenance claim"), Appendix Predictions (asymmetric fraying / conditioning gain / projection-without-maintenance as defeat). Read these before drafting §2.
 
 **Brett's position on LoT (cluster #10).** "I don't think there is such a thing." The §2 set-aside note should reflect this skepticism but stay neutral enough not to commit the paper to a philosophical position about mental representation it doesn't otherwise earn. Two sentences max.

@@ -1,0 +1,28 @@
+# Decisions
+
+2026-04-26 — Project created. Working title: "What Do We Mean by *Language*? A Pluralist Map for the *Language Sciences*." Reason: predecessor project (`Three_purposes_three_HPC_categories_of_language`, now archived) accumulated four rounds of review-board feedback that converged on a different paper than originally framed; the cleaner move was to start fresh with the consolidated reframe rather than rewrite an architecture that was no longer load-bearing.
+
+2026-04-26 — Working thesis: pluralist map of recurrent sense-clusters for the word *language*, with HPC discipline (projectibility, stabilizers, slippage diagnostics) supplying the methodological backbone that Santana 2016's three-criteria pluralism lacks. Reason: separates the lexical/conceptual map from the realist-discipline contribution. Addresses the round 1-3 panel's convergence pressure that the predecessor's "field-relative HPC categories" framing was at risk of being read as a re-derivation of pluralism in HPC vocabulary.
+
+2026-04-26 — Engaging Santana 2016 ("What Is Language?", *Ergo* 3.19) as the closest published precedent. The HPC contribution must do work Santana's three-criteria pluralism does not. Reason: the intake notes from the predecessor project flagged the structural overlap; honest engagement protects the paper from being read as Santana plus terminology.
+
+2026-04-26 — Primary venue: *Language Sciences* (8000-10000 words). Reason: best fit for transdisciplinary metatheoretical work on how the object of language studies is constructed. Compass-style survey or *Theoretical Linguistics* target-article formats were considered and rejected for now; the survey form would underclaim the HPC contribution, and the target-article form would push the paper toward debate-driven structure that the cluster map doesn't naturally take.
+
+2026-04-26 — Brainstorm cluster list (12 entries) needs consolidation. Likely landing zone is 5-7 clusters. Specific consolidation candidates: #1 (general human capacity) and #8 (cognitive/neural faculty) collapse to one cluster at different vocabularies; #2 (named sociohistorical object) and parts of #11 (index of identity / standardization) project together; #6 (communicative behaviour) and #7 (modality) may merge as use+instantiation. Reason: 8000-10000 words cannot support full HPC treatment of 12 clusters, and several of the 12 are at uneven grain.
+
+2026-04-26 — Cluster consolidation locked at six: Capacity, Idiolect / I-language, Population-level convention / E-language, Named sociohistorical object, Abstract formal system, Communicative practice. Reason: clean coverage of the brainstorm pairs that merged on shared projection targets, while keeping individual-internal vs population-level vs institutional-object distinctions that working scientists treat as different.
+
+2026-04-26 — Three open boundary cases resolved. **(#9) Broader semiotic system:** handled in §2 as the genus that the six clusters sit within, not a cluster. Animal communication and programming languages stay as boundary cases under Capacity and Communicative practice. **(#10) Language of thought:** set aside in §2 with a two-sentence note framing it as a metaphorical extension (the Fodor 1975 move ported language-like properties into mental representation) that doesn't share the projectibility profile of the public-object senses. Whether mental representation is language-like is a different debate. Not a cluster. **(#12) Methodological construct:** dropped as a candidate cluster ("which methods? which fields?" — too broad). Operationalisation-slippage ("the corpus IS the language", "competence IS the language") becomes one of the slippage patterns catalogued in the slippage section. Reason: keeps the paper at six clusters for the 8000-10000 word budget; absorbs the brainstorm material that wasn't doing distinct cluster-level work.
+
+2026-04-26 — Predecessor archived at `archive/Three_purposes_three_HPC_categories_of_language/` with full git history, round 1-4 reviews, revised plan, and initial main.tex draft preserved.
+
+2026-04-26 — Advisory board: carry over predecessor's panel with one swap. Drop Haspelmath (the comparative-concept umbrella question is settled — umbrella is a coordinative label, period). Add Santana (closest published precedent; can tell whether the paper does work his three-criteria pluralism doesn't). Six total: Boyd, Khalidi, Ereshefsky, Santana, Agha, Fitch. Personas updated to reflect the new paper's framing (cluster-by-cluster HPC discipline, slippage diagnoses, coordinative label for the umbrella) rather than the predecessor's field-relative-categories framing.
+
+## Open
+
+- **Final cluster taxonomy.** Consolidation from 12 to ~5-7 entries. Settle before drafting the per-cluster template.
+- **Length and structure.** 8000-10000 words for *Language Sciences*. Architecture depends on the cluster count.
+- **Position-taking on contested clusters.** Some clusters (language-of-thought, semiotic-system-broader-than-NL) carry their own debates. Decide whether the paper inventories them without verdict or argues for a particular reading.
+- **Relationship to the HPC book.** Stand-alone paper vs candidate chapter vs both.
+- **Advisory board.** Carry over the predecessor's `advisory-board.md` (Boyd / Khalidi / Ereshefsky / Haspelmath / Agha / Fitch), or revise. Santana himself is a candidate addition for this paper specifically.
+- **Slippage worked example.** Casten/Pinker (HAQER + verbal-performance phenotype read as language-faculty evidence) is the obvious candidate. Verify the case is sharp enough to carry the methodological argument.

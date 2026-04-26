@@ -16,11 +16,16 @@
 \setmainfont{EB Garamond}[
   Numbers=OldStyle,
   Ligatures=TeX,
+  BoldFont={EB Garamond},
 ]
 
 % IPA fallback font
 \newfontfamily\ipafont{Charis SIL}
 \newcommand{\ipa}[1]{{\ipafont #1}}
+
+% CJK fallback font (Japanese / Chinese / Korean)
+\newfontfamily\cjkfont{Hiragino Mincho ProN}
+\newcommand{\cjk}[1]{{\cjkfont #1}}
 
 % Lining figures when needed (tables, years in isolation)
 \providecommand{\liningnums}[1]{{\addfontfeatures{Numbers=Lining}#1}}
@@ -140,6 +145,12 @@
 % MATHS AND SYMBOLS
 % ===========================
 \usepackage{amsmath,amssymb}
+
+% ===========================
+% TIKZ DIAGRAMS
+% ===========================
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, fit, backgrounds}
 
 % ===========================
 % LINGUISTIC EXAMPLES

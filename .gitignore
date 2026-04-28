@@ -13,3 +13,9 @@
 
 # macOS
 .DS_Store
+
+# Built PDF (kept untracked per STATUS.md; use for preprint posting)
+main.pdf
+
+# Agent scratch / debug files
+.agent/

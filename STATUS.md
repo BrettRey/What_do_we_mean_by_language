@@ -23,6 +23,16 @@ Source-grounding pass complete (Santana 2016 + HPC book ch 4/7/8/16 + Prediction
 - Current untracked files: `.agent/slippage-page-12.png`, `.agent/slippage-page-13.png`, `main.pdf`, and `notes/preprint-posting-info.md`.
 - Checks run during the session: `../../.house-style/check-style.py main.tex` clean; Biber + XeLaTeX clean after citation additions; table placement verified with `pdftotext` pages 4-5.
 
-**Next action:** Decide whether to commit `notes/preprint-posting-info.md` and/or keep `main.pdf` untracked for local posting. If posting the preprint, use the author-manuscript PDF and the metadata in `notes/preprint-posting-info.md`; do not upload a publisher-formatted file. If editing further, the likely next pass is final compression/submission formatting rather than more argument expansion.
+### 2026-04-27 Evening Session Notes
+
+- Compression pass executed: from 12,065 to 9,609 body words; comfortably within the 9,500-10,000 *Language Sciences* budget.
+- Three rounds of simulated reviewer-board feedback worked through (rounds 1, 2, 3); see DECISIONS.md for the cumulative substantive moves.
+- §9 (Slippage) restructured into four subsections to surface the opener's three-block plan and put the Cantonese case at parallel heading level with Casten/Pinker.
+- Figure 1 placed in situ via `[H]` (with `\usepackage{float}` added to the house-style preamble).
+- Preprint posted to LingBuzz `lingbuzz/009947` and PhilPapers `https://philpapers.org/rec/REYWDW`.
+- Working tree cleaned: `main.pdf` and `.agent/` added to `.gitignore`; `notes/preprint-posting-info.md` committed.
+- Latest commit on `origin/master`: `d0b641b` (`Record preprint posting and clean working tree`).
+
+**Next action:** Wait for journal-side or community feedback on the preprint. If editing further, prioritize submission formatting and any specific reviewer/editor comments over additional argument expansion.
 
 **Blocker:** None.
